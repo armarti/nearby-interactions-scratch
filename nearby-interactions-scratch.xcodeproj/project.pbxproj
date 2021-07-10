@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BE8B822698B08F006DE4A8 /* nearby_interactions_scratchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE8B812698B08F006DE4A8 /* nearby_interactions_scratchApp.swift */; };
+		40BE8B842698B08F006DE4A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE8B832698B08F006DE4A8 /* ContentView.swift */; };
+		40BE8B862698B090006DE4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BE8B852698B090006DE4A8 /* Assets.xcassets */; };
+		40BE8B892698B090006DE4A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BE8B882698B090006DE4A8 /* Preview Assets.xcassets */; };
+		40BE8B912698B3DC006DE4A8 /* NearbyInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BE8B902698B3DC006DE4A8 /* NearbyInteraction.framework */; };
+		40BE8B952698B727006DE4A8 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE8B942698B727006DE4A8 /* Device.swift */; };
+		40BE8B972698B92A006DE4A8 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE8B962698B92A006DE4A8 /* Common.swift */; };
+		40BE8B992698BE68006DE4A8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BE8B982698BE68006DE4A8 /* CoreBluetooth.framework */; };
+		40BE8B9B2698BE6F006DE4A8 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BE8B9A2698BE6F006DE4A8 /* WatchConnectivity.framework */; };
+		40BE8B9D2698BE7A006DE4A8 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BE8B9C2698BE7A006DE4A8 /* MultipeerConnectivity.framework */; };
+		40BE8B9F2698BEA9006DE4A8 /* Connectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE8B9E2698BEA9006DE4A8 /* Connectors.swift */; };
+		40BE8BA12698BF74006DE4A8 /* ColorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE8BA02698BF74006DE4A8 /* ColorService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40BE8B7E2698B08F006DE4A8 /* nearby-interactions-scratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nearby-interactions-scratch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BE8B812698B08F006DE4A8 /* nearby_interactions_scratchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearby_interactions_scratchApp.swift; sourceTree = "<group>"; };
+		40BE8B832698B08F006DE4A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40BE8B852698B090006DE4A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40BE8B882698B090006DE4A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40BE8B902698B3DC006DE4A8 /* NearbyInteraction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NearbyInteraction.framework; path = System/Library/Frameworks/NearbyInteraction.framework; sourceTree = SDKROOT; };
+		40BE8B922698B47B006DE4A8 /* nearby-interactions-scratch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "nearby-interactions-scratch.entitlements"; sourceTree = "<group>"; };
+		40BE8B932698B49C006DE4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40BE8B942698B727006DE4A8 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		40BE8B962698B92A006DE4A8 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		40BE8B982698BE68006DE4A8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		40BE8B9A2698BE6F006DE4A8 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/iOSSupport/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		40BE8B9C2698BE7A006DE4A8 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/iOSSupport/System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		40BE8B9E2698BEA9006DE4A8 /* Connectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectors.swift; sourceTree = "<group>"; };
+		40BE8BA02698BF74006DE4A8 /* ColorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BE8B7B2698B08F006DE4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BE8B992698BE68006DE4A8 /* CoreBluetooth.framework in Frameworks */,
+				40BE8B9D2698BE7A006DE4A8 /* MultipeerConnectivity.framework in Frameworks */,
+				40BE8B912698B3DC006DE4A8 /* NearbyInteraction.framework in Frameworks */,
+				40BE8B9B2698BE6F006DE4A8 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BE8B752698B08F006DE4A8 = {
+			isa = PBXGroup;
+			children = (
+				40BE8B802698B08F006DE4A8 /* nearby-interactions-scratch */,
+				40BE8B7F2698B08F006DE4A8 /* Products */,
+				40BE8B8F2698B3DC006DE4A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40BE8B7F2698B08F006DE4A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BE8B7E2698B08F006DE4A8 /* nearby-interactions-scratch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BE8B802698B08F006DE4A8 /* nearby-interactions-scratch */ = {
+			isa = PBXGroup;
+			children = (
+				40BE8B932698B49C006DE4A8 /* Info.plist */,
+				40BE8B922698B47B006DE4A8 /* nearby-interactions-scratch.entitlements */,
+				40BE8B812698B08F006DE4A8 /* nearby_interactions_scratchApp.swift */,
+				40BE8B832698B08F006DE4A8 /* ContentView.swift */,
+				40BE8B852698B090006DE4A8 /* Assets.xcassets */,
+				40BE8B872698B090006DE4A8 /* Preview Content */,
+				40BE8B942698B727006DE4A8 /* Device.swift */,
+				40BE8B962698B92A006DE4A8 /* Common.swift */,
+				40BE8B9E2698BEA9006DE4A8 /* Connectors.swift */,
+				40BE8BA02698BF74006DE4A8 /* ColorService.swift */,
+			);
+			path = "nearby-interactions-scratch";
+			sourceTree = "<group>";
+		};
+		40BE8B872698B090006DE4A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40BE8B882698B090006DE4A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40BE8B8F2698B3DC006DE4A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40BE8B9C2698BE7A006DE4A8 /* MultipeerConnectivity.framework */,
+				40BE8B9A2698BE6F006DE4A8 /* WatchConnectivity.framework */,
+				40BE8B982698BE68006DE4A8 /* CoreBluetooth.framework */,
+				40BE8B902698B3DC006DE4A8 /* NearbyInteraction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BE8B7D2698B08F006DE4A8 /* nearby-interactions-scratch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BE8B8C2698B090006DE4A8 /* Build configuration list for PBXNativeTarget "nearby-interactions-scratch" */;
+			buildPhases = (
+				40BE8B7A2698B08F006DE4A8 /* Sources */,
+				40BE8B7B2698B08F006DE4A8 /* Frameworks */,
+				40BE8B7C2698B08F006DE4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nearby-interactions-scratch";
+			productName = "nearby-interactions-scratch";
+			productReference = 40BE8B7E2698B08F006DE4A8 /* nearby-interactions-scratch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BE8B762698B08F006DE4A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					40BE8B7D2698B08F006DE4A8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 40BE8B792698B08F006DE4A8 /* Build configuration list for PBXProject "nearby-interactions-scratch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BE8B752698B08F006DE4A8;
+			productRefGroup = 40BE8B7F2698B08F006DE4A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BE8B7D2698B08F006DE4A8 /* nearby-interactions-scratch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BE8B7C2698B08F006DE4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BE8B892698B090006DE4A8 /* Preview Assets.xcassets in Resources */,
+				40BE8B862698B090006DE4A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BE8B7A2698B08F006DE4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BE8B972698B92A006DE4A8 /* Common.swift in Sources */,
+				40BE8B952698B727006DE4A8 /* Device.swift in Sources */,
+				40BE8B842698B08F006DE4A8 /* ContentView.swift in Sources */,
+				40BE8BA12698BF74006DE4A8 /* ColorService.swift in Sources */,
+				40BE8B9F2698BEA9006DE4A8 /* Connectors.swift in Sources */,
+				40BE8B822698B08F006DE4A8 /* nearby_interactions_scratchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40BE8B8A2698B090006DE4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40BE8B8B2698B090006DE4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BE8B8D2698B090006DE4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "nearby-interactions-scratch/nearby-interactions-scratch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nearby-interactions-scratch/Preview Content\"";
+				DEVELOPMENT_TEAM = K7U5WUTB6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nearby-interactions-scratch/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "nearby-interactions-scratch";
+				INFOPLIST_KEY_CFBundleName = "nearby-interactions-scratch";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armarti.scratch.nearby-interactions-scratch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		40BE8B8E2698B090006DE4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "nearby-interactions-scratch/nearby-interactions-scratch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nearby-interactions-scratch/Preview Content\"";
+				DEVELOPMENT_TEAM = K7U5WUTB6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nearby-interactions-scratch/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "nearby-interactions-scratch";
+				INFOPLIST_KEY_CFBundleName = "nearby-interactions-scratch";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armarti.scratch.nearby-interactions-scratch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BE8B792698B08F006DE4A8 /* Build configuration list for PBXProject "nearby-interactions-scratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BE8B8A2698B090006DE4A8 /* Debug */,
+				40BE8B8B2698B090006DE4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BE8B8C2698B090006DE4A8 /* Build configuration list for PBXNativeTarget "nearby-interactions-scratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BE8B8D2698B090006DE4A8 /* Debug */,
+				40BE8B8E2698B090006DE4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BE8B762698B08F006DE4A8 /* Project object */;
+}
